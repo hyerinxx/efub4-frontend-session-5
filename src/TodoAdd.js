@@ -7,7 +7,7 @@ function TodoAdd({ todoList, setTodoList }) {
             done: false,
         }
         setTodoList([...todoList, newTodoItem]);
-        event.target["todo-text"].value = "";
+        event.target.reset();
     }
 
     return (
