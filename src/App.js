@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div id="App">
+    <div className="App">
       <Header />
       <TodoList />
       <TodoAdd />

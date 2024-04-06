@@ -2,7 +2,7 @@ import TodoItem from "./TodoItem";
 
 function TodoList() {
     return (
-        <ul id="todo-list">
+        <ul className="todo-list">
             <TodoItem />
             <TodoItem />
             <TodoItem />
