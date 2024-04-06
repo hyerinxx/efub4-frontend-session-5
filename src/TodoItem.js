@@ -1,8 +1,8 @@
-function TodoItem() {
+function TodoItem({ data }) {
     return(
         <li className="todo-item">
-            <input type="checkbox" />
-            <span>투두 아이템 텍스트</span>
+            <input type="checkbox" checked={data.done} />
+            <span>{data.text}</span>
             <input type="button" value="X" />
         </li>
     )

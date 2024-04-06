@@ -14,13 +14,13 @@ function App() {
     {
       id: 2,
       text: "두 번째 투두",
-      done: false,
+      done: true,
     }
   ]);
   return (
     <div className="App">
       <Header />
-      <TodoList />
+      <TodoList todoList={todoList} />
       <TodoAdd />
     </div>
   );
