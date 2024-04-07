@@ -5,8 +5,7 @@ import TodoAdd from "./TodoAdd"
 import './App.css';
 
 function App() {
-  const [todoList, setTodoList] = useState([
-  ]);
+  const [todoList, setTodoList] = useState([]);
   return (
     <div className="App">
       <Header />
