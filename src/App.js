@@ -6,16 +6,6 @@ import './App.css';
 
 function App() {
   const [todoList, setTodoList] = useState([
-    {
-      id: 1,
-      text: "첫 번째 투두",
-      done: false,
-    },
-    {
-      id: 2,
-      text: "두 번째 투두",
-      done: true,
-    }
   ]);
   return (
     <div className="App">
