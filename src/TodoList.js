@@ -1,11 +1,15 @@
 import TodoItem from "./TodoItem";
 
-function TodoList({ todoList }) {
+function TodoList({ todoList, setTodoList }) {
     return (
         <ul className="todo-list">
-            {todoList.map((item) => {
+            {todoList.map((todoItem) => {
                 return (
-                    <TodoItem data={item} />
+                    <TodoItem
+                        todoThis={todoItem}
+                        todoList={todoList}
+                        setTodoList={setTodoList}
+                    />
                 );
             })}
         </ul>
